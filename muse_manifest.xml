@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ultralogica.com" resolutions="1x" timestamp="1516104394716">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="45787.com" resolutions="1x" timestamp="1517944632486">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="448944994" ref="index"/>
-    <file name="index.css" crc="4271418459" ref="index"/>
+    <file name="master_______-a.css" crc="4086048250" ref="index"/>
+    <file name="index.css" crc="536097962" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -13,10 +13,7 @@
     <file name="require.js" crc="3861931657" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="без имени-16578.jpg" crc="4280733031" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3940016500" seo="true" mt="1516104240201" redirect="true"/>
+  <file name="index.html" crc="357792283" seo="true" mt="1517944585359" redirect="true"/>
 </manifest>
