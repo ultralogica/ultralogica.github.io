@@ -52,6 +52,6 @@
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   #Backgr_01{ 
-    background-image: url(images/001.jpg);
+    background-image: url(../File/images/001.jpg);
   }
 	}
