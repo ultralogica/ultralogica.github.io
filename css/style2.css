@@ -1,0 +1,208 @@
+/* Presentational style rules only
+ * Not required
+ */
+
+*{
+  box-sizing: border-box;
+ }
+
+html, body, .container {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Reset */
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  /* font: inherit; */
+}
+
+/* Basic */
+body { 
+  font-family: "Ariel", sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  color: #efecec;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 50px;
+  /* font-weight: 400; */
+  /* margin-top: 20px; */
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+
+.inner {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+.container {
+  display: table;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%; 
+  max-width: 1600px; 
+  margin: 0 auto;
+}
+
+/* Special */
+.sub-title {
+  margin: 5px auto 30px;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: relative;
+  text-transform: uppercase; 
+  text-shadow: rgb(115, 111, 174) 0px 0px 10px, 1px 1px 26px rgba(86, 100, 184, .9490196078431372);
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 10px;
+  color: #cafaea;
+  /* border: 1px solid #cafaea; */
+  border-radius: 3px;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#more-content {
+  display: none;
+}
+
+.uxs{
+  padding: 20px 60px; 
+  margin: 5px; 
+}
+
+.wrfull{
+  margin: 0 auto;
+  text-align: center; 
+  width: 100%; 
+  min-width: 205px;
+}
+
+.wr-img{
+  margin: 0 auto; 
+  text-align: center; 
+  width: 30%; 
+  min-width: 205px; 
+  opacity: 0.86;
+}
+
+.img-style{
+   width: 100%; 
+   height: auto; 
+   min-width: 195px;
+   /* max-width: 500px; */
+}
+
+.wr-slog{
+  margin: 0 auto; 
+  text-align:center;
+  max-width: 100%; 
+  min-width: 300px;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 2000px) {
+
+.sub-title{ 
+      margin: 0.5em auto 1em;
+      font-size: 4em;
+      line-height: 23px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+  }
+}
+
+
+@media only screen and (max-width: 780px) {
+
+body h1 {
+    font-size: 45px;
+    /* line-height: 23px; */
+  } 
+
+.sub-title{
+    letter-spacing: 3px;
+    font-size: 13px;
+  }
+
+
+html, body, .container {
+    /* height: auto; */
+  }
+
+button {
+  padding: 25px;
+  border: 1px solid #cafaea;
+  font-size: 15px;
+}
+
+.uxs{
+      padding: 20px; 
+      margin: 5px; 
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  body h1 {
+    font-size: 42px;
+    /* line-height: 23px; */
+  } 
+  
+  .sub-title{
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+
+  .button{
+    font-size: 13px;
+  }
+
+}
+
+
+@media only screen and (max-width: 350px) {
+  body h1 {
+    font-size: 40px;
+    /* line-height: 23px; */
+  } 
+  
+  .sub-title{
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+
+  }
